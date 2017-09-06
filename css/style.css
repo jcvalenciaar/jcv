@@ -1,0 +1,109 @@
+/*
+font-family: 'Indie Flower', cursive;
+font-family: 'Baloo Tammudu', cursive;
+*/
+#contenidos{
+  width:800px;
+  height: auto;
+  margin:auto;
+  position:relative;
+  /*background: gray;*/
+}
+/*Etiquetas*/
+body{
+  background-image: url(../img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+h1{
+  font-family: 'Baloo Tammudu', cursive;
+  color: white;
+  margin-left:10px;
+  font-size:60px;
+  text-align: center;
+} 
+h2{
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  margin-left:10px;
+  font-size:20px;
+  text-align: left;
+}
+h3{
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  font-size:12px;
+  text-align: center;
+}
+header{
+  width: 800px;
+  height: 120px;
+  background: rgba(255,255,255,3,5);
+  
+}
+nav{
+  width: 800px;
+  height: 55px;
+  background: red;
+  border-radius: 10px;
+
+}
+ul{
+  margin: auto;
+  padding-top: 4px;
+  margin-top: 20px;
+
+}
+li{
+  /*formato de menu */
+  float:left;
+  list-style-type: none;
+  padding: 10px;
+  background: black;
+  margin:3px;
+  border-radius: 10px;
+  box-shadow: 0  0 10px white inset;
+}
+section{
+  width: 500px;
+  background: grey;
+  height: 350px;
+  float: left;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+aside{
+  width: 280px;
+  background: white;
+  height: 350px;
+  float:left;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+
+}
+footer{
+  width: 800px;
+  height: 40px;
+  background: maroon;
+  float:left;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+p{
+  font-size:15px;
+  font-weight: bolder;
+  line-height: 15px; /*alto de linea*/
+  padding: 10px;
+  text-align: justify;
+}
+/* Definimos las Clases */
+.ancho_menu_home{width: 700px;}
+.ancho_menu_paginas{width: 750px;}
+
+.menu:link{ color:white; text-decoration: none;}
+.menu:visited{ color:white; text-decoration: none;}
+.menu:hover{ color:white; text-decoration: none; text-shadow: 0 0 13px white;}
+.menu:active{ color:white; text-decoration: none;}
